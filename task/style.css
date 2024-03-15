@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+.nav-icons ul{
+    display: flex;
+    list-style: none;
+    gap: 6px;
+}
+.naw-contact{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.naw-contact span{
+    display: flex;
+    gap: 8px;
+}
+.nav-icons ul li{
+    background-color: black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.nav-icons ul li i{
+    color: #fff !important;
+}
+.menudiv ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    float: right;
+    gap: 50px;
+    font-size: large;
+    position: sticky;
+    top: 0;
+}
+.header-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+#hero-section{
+    background-image:url("./hero_2.jpg") ;
+}
+.hero-section-content {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.heroSectionText{
+    max-width: 630px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    color: #fff;
+    
+}
+.heroSectionText h1{
+    font-size: 65px ;
+    font-family: sans-serif;
+font-weight: 600;
+}
+.heroSectionText p{
+    font-size: 18px;
+    width: 80%;
+}
+.heroSectionText button{
+    padding: 10px 20px;
+    border: 2px solid #fff;
+}
+
+.heroSectionText .shopbtn{
+    background-color: transparent;
+    color: #fff ;
+}
+
+.heroSectionText .clubbtn{
+    background-color: #fff;
+}
+
+@media screen and (min-width:300px) and (max-width:1200px){
+    nav{
+        display: none;
+    }
+    .hamburgerIcon{
+        display: block;
+    }
+}       
+@media screen and (min-width:300px) and (max-width:1200px){
+    nav{
+        display: none;
+    }
+    .hamburgerIcon{
+        display: block;
+    }
+
+    
+
+}
+
+#ourProducts-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
